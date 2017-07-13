@@ -1,0 +1,139 @@
+html {
+  font-family: sans-serif;
+  line-height: 1.5;
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+.wrapper {
+  width: 90%;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+}
+.subtitle {
+  font-weight: 300;
+  font-style: italic;
+}
+.page-header__title {
+  font-size: calc(24px + 3vw);
+  margin: 0;
+}
+.page-header__subtitle {
+  font-size:calc(16px + 1vw);
+}
+img {
+  max-width: 100%;
+}
+.site-header {
+  padding: 24px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.row {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  text-align: center;
+  padding: 48px;
+  min-width: 240px;
+  flex: 1;
+  margin-bottom: 24px;
+}
+.card__img {
+  margin-bottom: 24px;
+}
+
+.nav__ul {
+  text-align: right;
+  text-transform: uppercase;
+}
+.nav--top .nav__li {
+  display: inline-block;
+}
+.page-header {
+  text-align: center;
+  background-size: cover;
+  color: #fff;
+}
+.page-accueil .page-header,
+.contact {
+  
+}
+.page-destinations .page-header {
+  padding: 96px 48px;
+  background: rgba(0, 0, 0, .4) url(https://unsplash.it/1000/600?image=1051) no-repeat center center;
+  background-size:cover;
+  background-attachment: fixed;
+}
+.page-destinations .page-header {
+  background: rgba(0, 0, 0, .4) url(https://unsplash.it/1200/800?image=1050) no-repeat center center;
+  background-size:cover;
+  background-attachment: fixed;
+}
+
+.page-accueil .contact {
+  text-align: center;
+  color: #fff;
+}
+.button {
+  display: inline-block;
+  border: 2px solid;
+  color: inherit;
+  padding: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 900;
+  transition: .5s;
+}
+.button:hover {
+  background: dodgerblue;
+  color: #fff;
+  border-color: dodgerblue;
+}
+.title {
+  text-align:center;
+}
+.nav__li {
+  margin: 0 8px;
+}
+.nav__li a {
+  color: inherit;
+  transition: 0.5s;
+}
+.nav__li a:hover,
+.nav__li .active {
+  color: dodgerblue;
+}
+.new-line {
+  display: block;
+}
+.site-footer {    <section id="contact" class="contact">
+      <div class="wrapper">
+        <h3>Adresse :</h3>
+        <p><span class="new-line">Café Simplon - Cité des Sciences et de l’Industrie - Parc de la Villette</span>
+        </p>30 Avenue Corentin-Cariou - 75019 Paris</p>
+      </div>
+    </section>
+  padding: 24px;
+  text-align: center;
+}
+
+.circle {
+  border-radius: 50%;
+}
+.radius-20 {
+  border-radius: 20px;
+}

@@ -1,0 +1,12 @@
+body{ text-align: center;
+      font-family:lora,serif;}
+.circle{
+        border-radius: 50%;
+}
+header{ border-bottom: 1px solid}
+
+.contact{background-color:#333;
+         }
+
+figure{margin:24px;
+                   }

@@ -1,0 +1,70 @@
+<!Doctype html>
+<html>
+	<head>
+		<title>Portfolio de Sonia K.</title>
+		<meta charset="utf-8">
+		<link rel <"stylesheet"> href="css" </link>
+	</head>
+	<body>
+		<header>
+			<img class="circle" src="https://unsplash.it/160/160?image=932" alt="Brouillard">
+			<h1>Photos de Sonia K.</h1>
+			<h2>Une  amoureuse de la nature</h2>
+		</header>
+		<main>
+			<section class="intro">
+				<h2>À propos</h2>
+				<p>Mon aventure avec la photographie date d'il y très très longtemps. Je suis fascinée par la nature sauvage depuis ma tendre enfance, depuis cet appareil photo qu'on m'avait offert le jour de mes 8 ans.</p>
+			</section>
+			<section class="portfolio">
+				<h2>Mes photos</h2>
+				<div class="photos">
+					<figure>
+						<img src="https://unsplash.it/400/300?image=993" alt="Chemin">
+						<figcaption>Chemin.</figcaption>
+					</figure>
+					<figure>
+						<img src="https://unsplash.it/400/300?image=1003" alt="Rencontre">
+						<figcaption>Rencontre.</figcaption>
+					</figure>
+					<figure>
+						<img src="https://unsplash.it/400/300?image=932" alt="Brouillard">
+						<figcaption>Brouillard.</figcaption>
+					</figure>
+					<figure>
+						<img src="https://unsplash.it/400/300?image=910" alt="Matinée">
+						<figcaption>Matinée.</figcaption>
+					</figure>
+									<figure>
+						<img src="https://unsplash.it/400/300?image=379" alt="Road Movie">
+						<figcaption>Road Movie.</figcaption>
+					</figure>
+					<figure>
+						<img src="https://unsplash.it/400/300?image=518" alt="Bois">
+						<figcaption>Bois.</figcaption>
+					</figure>
+					<figure>
+						<img src="https://unsplash.it/400/300?image=472" alt="Randonée">
+						<figcaption>Randonée.</figcaption>
+					</figure>
+					<figure>
+						<img src="https://unsplash.it/400/300?image=89" alt="L'herbe">
+						<figcaption>L'herbe.</figcaption>
+					</figure>
+				</div>
+			</section>
+			<section class="contact">
+				<h2>Mon travail vous intéresse&nbsp;?</h2>
+				<p>Contactez-moi <a href="mailto:soniak@exemple.com">par mail.</a></p>
+				<h3>Suivez-moi sur les réseaux sociaux</h3>
+				<ul>
+					<li><a href="#">facebook</a></li>
+					<li><a href="#">instagram</a></li>
+				</ul>
+			</section>
+		</main>
+		<footer>
+			&copy; 2017 Sonia K.
+		</footer>
+	</body>
+</html>
